@@ -88,6 +88,7 @@ public class JavaCodeFixerMojo extends AbstractMojo {
     }
   }
 
+  //Checks if the file extension is java or not
   private boolean isJavaFile(String fileName) {
     boolean isJavaFile = false;
     int index = fileName.lastIndexOf('.');
